@@ -64,5 +64,9 @@ group :development do
   # gem "spring"
 end
 
-
+# Rspec stuff
 gem "rspec-rails", "~> 5.1"
+
+# Adding CORS
+gem 'rack-cors', :require => 'rack/cors'
+
